@@ -15,7 +15,6 @@ namespace Web_App.Controllers
             return View();
         }
 
-
         [HttpPost]
         [AcceptVerbs(HttpVerbs.Post)]
         public ActionResult Enviar(HttpPostedFileBase arquivo)
